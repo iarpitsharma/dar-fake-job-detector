@@ -71,10 +71,10 @@ def test_header_and_footer_structure(client):
     assert "dar-logo-white.svg" in html_text
     assert "Check before you apply." in html_text
     assert "Your safety is our priority." in html_text
-    assert "devanshmittal051@gmail.com" in html_text
-    assert "9412494909" in html_text
+    assert "arpitsharma005005@gmail.com" in html_text
+    assert "8839304715" in html_text
     assert "Chandigarh, India" in html_text
-    assert "© 2026 DAR. Created by Devansh Mittal." in html_text
+    assert "© 2026 DAR. Created by Arpit Sharma." in html_text
 
 
 def test_csrf_token_meta_tag(client):

@@ -173,7 +173,7 @@ def test_faq_page(client):
     for q in expected_questions:
         assert q in html, f"Missing question: {q}"
 
-    assert "Created by Devansh Mittal" in html or "created by Devansh Mittal" in html
+    assert "Created by Arpit Sharma" in html or "created by Arpit Sharma" in html
     assert "faq.js" in html
 
 
@@ -212,4 +212,4 @@ def test_about_page(client):
 
     # Name and creator
     assert "The Name \"DAR\"" in html
-    assert "Created by Devansh Mittal" in html
+    assert "Created by Arpit Sharma" in html

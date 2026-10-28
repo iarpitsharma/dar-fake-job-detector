@@ -18,10 +18,10 @@
 
 DAR analyzes the text using Machine Learning (TF-IDF with Logistic Regression or Random Forest), evaluates rule-based warning signs (e.g. registration fees, vague company names, salary anomalies, personal messaging apps), highlights suspicious phrases directly in the job text, and combines AI predictions with community crowd-sourced verification.
 
-Created as a first-year college project by **Devansh Mittal**.
+Created as a project by **Arpit Sharma**.
 
 - **Live Application:** [https://dar-fake-job-detector.onrender.com](https://dar-fake-job-detector.onrender.com)
-- **Source Code Repository:** [https://github.com/devanshmittal30/dar-fake-job-detector](https://github.com/devanshmittal30/dar-fake-job-detector)
+- **Source Code Repository:** [https://github.com/iarpitsharma/dar-fake-job-detector](https://github.com/iarpitsharma/dar-fake-job-detector)
 
 ---
 
@@ -75,7 +75,7 @@ Created as a first-year college project by **Devansh Mittal**.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/devanshmittal30/dar-fake-job-detector.git
+git clone https://github.com/iarpitsharma/dar-fake-job-detector.git
 cd dar-fake-job-detector
 
 # 2. Create and activate virtual environment
@@ -103,7 +103,7 @@ Open `http://127.0.0.1:5001` in your browser.
 
 ```cmd
 :: 1. Clone the repository
-git clone https://github.com/devanshmittal30/dar-fake-job-detector.git
+git clone https://github.com/iarpitsharma/dar-fake-job-detector.git
 cd dar-fake-job-detector
 
 :: 2. Create and activate virtual environment
@@ -268,6 +268,8 @@ As an honest machine learning project, DAR's boundaries and limitations are tran
 
 ## 12. Author & Acknowledgements
 
-- **Author:** Devansh Mittal (First-year college project)
-- **Project Repository:** [https://github.com/devanshmittal30/dar-fake-job-detector](https://github.com/devanshmittal30/dar-fake-job-detector)
+- **Author & Lead Developer:** Arpit Sharma
+- **Email:** [arpitsharma005005@gmail.com](mailto:arpitsharma005005@gmail.com)
+- **Phone:** +91 8839304715
+- **Project Repository:** [https://github.com/iarpitsharma/dar-fake-job-detector](https://github.com/iarpitsharma/dar-fake-job-detector)
 - **Documentation:** See `docs/01_PRD.md`, `docs/02_UI_UX_SPEC.md`, `docs/03_TECHNICAL_DESIGN.md`, and `docs/04_DEVELOPMENT_ROADMAP.md`.
